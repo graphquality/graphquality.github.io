@@ -33,10 +33,17 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ul.head {
+	text-align: center;
 }
-
+ul.intext{
+	text-align: left;
+	margin-bottom: 0em;
+}
+ol.intext{
+	text-align: left;
+	margin-bottom: 0em;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -1561,6 +1568,23 @@ input, select, textarea {
 				margin: 0;
 				padding: 0 1em 0 1em;
 			}
+		header.major2 {
+			position: relative;
+			text-align: center;
+			border-top: solid 1px #ccc;
+			top: 1em;
+			margin: 0 0 3em 0;
+		}
+
+			header.major2 h2 {
+				background: #fff;
+				position: relative;
+				top: -0.65em;
+				display: inline;
+				margin: 0;
+				padding: 0 1em 0 1em;
+			}
+		
 
 	footer {
 		margin: 2.25em 0 0 0;
@@ -1570,7 +1594,6 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
 
@@ -2173,7 +2196,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background:  #D8DBE2  url("../../images/pic01.jpg");
+		background:  url("../../images/pic01.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
